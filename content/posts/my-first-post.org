@@ -1,0 +1,27 @@
+#+title: "My First Post"
+#+date: <2023-10-22 Sun>
+#+draft: true
+
+#+math: true
+
+* 你好，世界
+
+/Hello World/
+
+** 诗歌测试
+
+#+begin_verse
+窗外的麻雀在电线杆上多嘴
+
+你说这一句很有夏天的感觉
+#+end_verse
+
+** 代码测试
+#+begin_src haskell
+  fibs :: [Int]
+  fibs = 0 : 1 : zipWith (+) fibs (tail fibs)
+#+end_src
+
+** 数学测试
+
+这是一段文字，在其中我提到了 alpha (\alpha) \sum_x^y

@@ -1,0 +1,5 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-cn'
+title = '我的新 · 雨果博客'
+
+theme = 'dead-simple'
