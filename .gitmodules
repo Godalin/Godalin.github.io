@@ -1,6 +1,6 @@
-[submodule "themes/dead-simplethemes/dead-simple"]
-	path = themes/dead-simplethemes/dead-simple
-	url = https://github.com/barklan/hugo-dead-simple.git
 [submodule "themes/dead-simple"]
 	path = themes/dead-simple
 	url = https://github.com/barklan/hugo-dead-simple.git
+[submodule "themes/even1"]
+	path = themes/even1
+	url = https://github.com/olOwOlo/hugo-theme-even

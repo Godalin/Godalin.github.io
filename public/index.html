@@ -19,9 +19,9 @@
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff" />
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1b" />
 
-    <link rel="alternate" type="application/rss+xml" href="https://example.org/index.xml" title="My New Hugo Site" />
+    <link rel="alternate" type="application/rss+xml" href="https://example.org/index.xml" title="我的新 · 雨果博客" />
     
-        <title>My New Hugo Site</title>
+        <title>我的新 · 雨果博客</title>
     
 
     
@@ -78,6 +78,29 @@
 
 
     <ul id="results"></ul>
+
+    
+        <h2 class="section-title">Posts</h2>
+        
+        <ul class="post-list">
+  
+
+  <li>
+
+    <div style="display: grid; grid-template-columns: 7em auto">
+      <span class="date">Oct 22, 2023</span>
+      
+      <a href="/posts/my-first-post/">My First Post</a>
+      
+    </div>
+
+</li>
+
+
+
+  
+</ul>
+
 
     
 
@@ -202,11 +225,25 @@
 <script>
 window.store = {
     
-    "https:\/\/example.org\/my-first-post\/": {
+    "https:\/\/example.org\/posts\/my-first-post\/": {
         "title": "My First Post",
         "tags": [],
-        "content": " 这是一首诗 \\ 一首啥诗\n", 
-        "url": "https:\/\/example.org\/my-first-post\/"
+        "content": " 你好，世界 Hello World\n诗歌测试 窗外的麻雀在电线杆上多嘴\n你说这一句很有夏天的感觉\n代码测试 fibs :: [Int] fibs = 0 : 1 : zipWith (+) fibs (tail fibs) 数学测试 这是一段文字，在其中我提到了 alpha (α) ∑_x^y\n", 
+        "url": "https:\/\/example.org\/posts\/my-first-post\/"
+    },
+    
+    "https:\/\/example.org\/posts\/": {
+        "title": "Posts",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/example.org\/posts\/"
+    },
+    
+    "https:\/\/example.org\/": {
+        "title": "我的新 · 雨果博客",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/example.org\/"
     },
     
     "https:\/\/example.org\/categories\/": {
@@ -214,13 +251,6 @@ window.store = {
         "tags": [],
         "content": "", 
         "url": "https:\/\/example.org\/categories\/"
-    },
-    
-    "https:\/\/example.org\/": {
-        "title": "My New Hugo Site",
-        "tags": [],
-        "content": "", 
-        "url": "https:\/\/example.org\/"
     },
     
     "https:\/\/example.org\/tags\/": {
