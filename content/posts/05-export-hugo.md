@@ -13,9 +13,7 @@ aaa bbb ccc
 
 aaa
 
-\begin{abstract}
 This is an abstract for Ox Hugo
-\end{abstract}
 
 \begin{equation}
 \vartheta\cdot\alpha\beta\sum\_{\gamma\pi}^{\alpha\theta}a\_{\alpha\theta}\omega \\\\
