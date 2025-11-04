@@ -2,8 +2,19 @@ baseURL = 'https://godalin.github.io/'
 languageCode = 'zh-cn'
 title = '新 ∙ 雨果博客'
 
-[markup.highlight]
-noClasses = false
+sectionPagesMenu = 'main'
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.extensions]
+[markup.goldmark.extensions.passthrough]
+enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['\[', '\]'], ['$$', '$$']]
+inline = [['\(', '\)']]
+
+[params]
+math = true
 
 [module]
 # this is needed when you fetch the theme as a submodule to your repo.
