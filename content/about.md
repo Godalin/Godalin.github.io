@@ -3,14 +3,15 @@ menus: main
 title: About Linyu Yang (Godalin)
 ---
 
-His research interest lies in
+My research interest lies in
 
 - programming languages theories
 - mathematical logic
 - type theory
 - theorem proving
 
-He also has fun playing
+I also has fun with configuring different softwares:
 
 - GNU Emacs
 - NixOS
+- Rime
