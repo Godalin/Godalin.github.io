@@ -1,0 +1,10 @@
+math = true
+
+# showLanguageSelector = true
+fullWidthTheme = false
+centerTheme = true
+showLastUpdated = true
+updatedDatePrefix = "Updated"
+
+Toc = true
+TocTitle = "Table of Contents"
