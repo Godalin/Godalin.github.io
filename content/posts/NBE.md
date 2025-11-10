@@ -2,6 +2,7 @@
 title = "NBE, Some Notes (1)"
 author = ["Linyu Yang"]
 date = 2025-11-07T00:00:00+08:00
+tags = ["pl", "tt", "λ"]
 draft = false
 +++
 
@@ -141,7 +142,7 @@ This eval-apply loop is exactly how to implement a lisp inside lisp.
 ```text
 val: unknown variable x
   context...:
-   body of "/var/folders/3q/654xm_6x2m7f6qt50nghq1cr0000gn/T/babel-RGfyU5/org-babel-Ra3h4s.rkt"
+   body of "/var/folders/3q/654xm_6x2m7f6qt50nghq1cr0000gn/T/babel-8XPLaz/org-babel-Ya3bpz.rkt"
 (CLOS '() 'x '(λ y y))
 (CLOS '() 'x 'x)
 ```

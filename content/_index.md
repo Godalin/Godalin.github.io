@@ -1,6 +1,9 @@
 ---
 menus: main
 title: 八月的末尾和風
+author: Linyu Yang
+tags:
+  - poem
 ---
 
 ## 八月的末尾和風
