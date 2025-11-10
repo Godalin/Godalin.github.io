@@ -13,6 +13,9 @@ enable = true
 block = [['\[', '\]'], ['$$', '$$']]
 inline = [['\(', '\)']]
 
+[markup.goldmark.renderer]
+unsafe = true 
+
 [markup.highlight]
 noClasses = false
 lineNos = true
